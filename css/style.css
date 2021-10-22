@@ -163,7 +163,13 @@ a {
   text-decoration: none;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
 
+.hidden{
+  display: none;
+}
 
 @media (max-width: 575.98px) {
   select {
@@ -174,14 +180,14 @@ a {
     margin: 0;
   }
 
-  .rightside{
+  .rightside {
     padding-left: 0px;
   }
 
-  .facts{
+  .facts {
     padding-right: 40px;
   }
-  .rightside .label{
+  .rightside .label {
     width: 150px;
   }
 }
