@@ -37,10 +37,12 @@
             <div class="rightside">
               <div class="select">
                 <label>
-                  <span class="select-label">Version</span>
+                  <span class="select-label">Kind</span>
                   <div class="arrow-down">
-                    <select>
-                      <option value="1">Version 1</option>
+                    <select id="kind">
+                      <option value="train">Train</option>
+                      <option value="test">Test</option>
+                      <option value="dev">Dev</option>
                     </select>
                   </div>
                 </label>
@@ -110,5 +112,10 @@
           </div>
         </div>
       </div>
+<script>
+  const kind = document.getElementById('kind').onchange = (ev) => {
+    console.log(this.value);
+  }
+</script>
 </body>
 </html>
